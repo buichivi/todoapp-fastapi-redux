@@ -1,2 +1,6 @@
-# todoapp-fastapi-redux-
-todoapp(fastapi+redux)
+# Todoapp
+
+
+## Tech stack
+- FastAPI (Python)
+- ReactJS (Typescript), Redux

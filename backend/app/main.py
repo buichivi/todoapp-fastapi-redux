@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
+from app.routers import todos
+
 app = FastAPI()
 
-@app.get('/')
-async def read_root():
-    return {"message": "hello world"}
+app.include_router(todos.router, prefix="/todos", tags=['todos'])
